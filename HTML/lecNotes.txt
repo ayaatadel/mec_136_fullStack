@@ -1,0 +1,58 @@
+compiler =>  once  => speed
+interpreter=> line by line
+
+
+
+gfgfgfnhfg ===============
+lorebdcgmsdhghfgcds===============
+dsncmgsdhchd===================
+svdcdbmsgfsdmgf====xxxxxxxxxxxxxxxxxxxxxx
+bdhgsahfheg
+
+
+==============================
+full stack => web
+
+=====> web developer
+=> front end  
+=> back end
+=> full stack
+ , web designer  => ui,ux  => adode xd , figma
+=> front end         ===========> 
+== html
+==> hyper text markup language
+== css
+== bootstrap
+=== js
+==== api
+=== react
+
+
+================> vscode , visual studio code
+=========> w3school , mdn
+
+
+===============> git , git hub
+===============>  linkedIn  
+
+=================***********************************************==
+meta tags => tag => setting wesite => name , language , refresh
+
+tag => closed tag => meta   => open , closed tag =>html, head, body,title
+tag => attributes => 
+comment => 
+<!--      -->   => ctrl + ظ؟
+
+list=> ordered list , unordered list , description list
+
+
+//////
+
+
+Day2
+
+inline  => span=>  
+block  => width
+
+
+
