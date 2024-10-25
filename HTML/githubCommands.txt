@@ -1,0 +1,33 @@
+// install git=> https://git-scm.com/downloads  
+// account on github
+
+=====>open folder that you want to upload
+r-click 
+git bash here
+
+git init
+git add .
+git commit -m "code for image"
+git brach -M main
+===========> upload for first time
+==>error=> branch main not found  
+git config --global use.name "ahmedali"
+git config --global use.email "ahmedali@gmail.com"
+=================================>
+git brach -M main
+git remote add origin https://github.com/ayaatadel/tesssssssssssssst.git
+git push origin main
+
+
+////////////////
+https://github.com/ayaatadel/mec_136_fullStack
+
+///////////////////////////////
+install code 
+
+open anyfolder
+
+===>
+r-click 
+git bash here
+git clone https://github.com/ayaatadel/mec_136_fullStack.git
