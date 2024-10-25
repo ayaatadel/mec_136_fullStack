@@ -31,3 +31,14 @@ open anyfolder
 r-click 
 git bash here
 git clone https://github.com/ayaatadel/mec_136_fullStack.git
+
+
+
+
+///////////////////////
+
+update files after upload
+
+git add .
+git commit -m "update files"
+git bush origin main
