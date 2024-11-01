@@ -1,0 +1,37 @@
+css==> cascading style sheet
+
+comment in css /*  */ ==> ctrl+ظ
+
+/**
+1- internal style
+
+     <style>
+
+
+
+     </style>
+
+2- inline style    ========> periority
+<p  style="color:red;"> content </p>
+
+3- external file => preferred use 
+
+
+
+==== selection tag in html
+
+== id   ==> #idName
+== tag name   => p  , h1  
+== class    ==> .className
+
+
+====== universal selector
+=== style => applied to all
+
+===> grouping selector
+
+
+===> margin => space between element and another element
+==> padding => space between element and border
+
+

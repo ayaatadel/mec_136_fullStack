@@ -1,0 +1,131 @@
+
+/* universal selector */
+/* *{
+   font-size: 20px;
+   font-weight: bold; 
+   color: red;
+} */
+/*  tag name selector */
+/* h1{
+    color: green;
+} */
+/* h4{
+    color: rgb(5, 67, 67);
+} */
+/*  id selector */
+/* #header{
+    color: blue;
+} */
+/*  class  name selector */
+/* .text{
+    color: rgb(246, 139, 24); 
+} */
+/* p{
+    color: rgb(246, 139, 24);
+}
+h2{
+    color: rgb(246, 139, 24);
+}
+h3{
+    color: rgb(246, 139, 24); 
+}*/
+/* grouping selector */
+/* p,h2,h3{
+    color: rgb(246, 139, 24);  
+} */
+
+
+#pg{
+ color: brown;
+ background-color: rgb(192, 192, 199);
+ font-size: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+}
+.text{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    width: 400px;
+    height: 600px;
+    background-color: green; 
+    text-align: center;
+     background-image: url("https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=300");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    
+   
+   /* background:url("https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=300") no-repeat center ; 
+   background-attachment: fixed;
+   background-size: cover; */
+
+
+}
+
+
+#text{
+    color: brown;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: line-through;
+     border: 1px solid black;
+
+     /* border-width: 1px;
+     border-color: black;
+     border-style: solid; */
+
+
+
+
+}
+p{
+     /* ==> all sides 10px */
+    /* margin: 10px; */ 
+
+ /*  top   right  bottom  left  **/
+    margin: 10px  8px 5px 7px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    border: 1px solid red;
+
+    padding: 20px;
+     /* ==> all sides 10px */
+    /* padding: 10px; */ 
+
+ /*  top   right  bottom  left  **/
+ padding: 10px  8px 5px 7px;
+
+outline-style: solid;
+outline-color: rgb(99, 14, 237);
+outline-width:5px;
+/* outline:10px solid red;
+
+outline-offset: 2px; 
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    /* border:1px solid gray ; */
+    /* border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; */
+}
+a{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
