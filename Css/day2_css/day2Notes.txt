@@ -1,0 +1,54 @@
+compinator selectors
+○ descendant selector (space)  // all in 
+○ child selector (>)   // child
+○ adjacent sibling selector (+)  // first elemet after me
+○ general sibling selector (~)  // all elements after me
+
+
+//////////////////   block elements , inline elements
+
+ 
+===> block => width ==> 100%  
+ => can't accept any elemnts beside it
+             height => content
+             ===> accept => width , height
+       margine => accept margine in all sides
+       padding==> accept margine in all sides
+ex: div  , form , list 
+/****************************************************************
+inline => width , height ==> contenet
+==>accept any elemnts beside it
+span , img , link (a)
+
+       margine => accept margine in right and left
+       padding==> accept margine in all sides
+
+==================================
+inline-block 
+تاخد كل الخصائص لل block
+width => content
+accept => element beside it
+       margine => accept margine in all sides
+       padding==> accept margine in all sides
+
+////////////////////////////////////////////
+
+box-sizing ===>border-box: width  , height
+ the width and height of an element is calculated like this:
+
+ // width 300px
+ // padding 50px
+ // border 1px
+width(content) + padding + border = actual width of an element
+height + padding + border = actual height of an element
+div{
+    width:300px====> content + border+padding
+}
+
+///    box-sizing : contenet-box
+width => width of content
+div{
+    width:300px====> content
+}
+
+/****************************************************

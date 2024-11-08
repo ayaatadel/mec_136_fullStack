@@ -1,0 +1,26 @@
+/* .intro p{
+    color:red;  // all p in mine
+} */
+
+/* .intro > p{
+    color:blue   
+} */
+/* .intro + p{
+    color:blue  
+} */
+/* .intro ~ p{
+    color:blue 
+} */
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+
+ div{
+    width: 300px;
+    border: 1px solid black;
+    padding: 50px;
+    height: 100px;
+
+ }
