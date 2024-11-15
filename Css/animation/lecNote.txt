@@ -1,0 +1,9 @@
+semantic tags
+
+// div
+// nav
+// article
+//header
+● Tags: <nav> , <header>, <main>, <section>, <aside>, <footer>, <article>
+
+

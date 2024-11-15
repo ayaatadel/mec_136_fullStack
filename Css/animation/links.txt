@@ -1,0 +1,2 @@
+link library of css animation =====>https://animate.style/
+link of back ground gradiant ==> https://cssgradient.io/
