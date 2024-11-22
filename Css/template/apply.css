@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 50vh;
+    background-image: url("https://preview.colorlib.com/theme/lawyerlegal/assets/img/hero/h1_hero1.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    display: flex;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+display: flex;
+position: fixed;
+top: 0;
+width: 100%;
+justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    /* justify-content: flex-start; */
+    /* gap: 5px; */
+}
+li{
+    list-style: none;
+    margin-left: 5px;
+}
+.logo img{
+    width: 50px;
+}

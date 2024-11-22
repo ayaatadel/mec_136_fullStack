@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --basic-color:rgb(11, 225, 222);
+    --main-border:1px solid black;
+    --main-border-radius:5px;
+    --main-font-family: "Anton", sans-serif;
+}
+
+/* main{
+background-image: url("https://preview.colorlib.com/theme/lawyerlegal/assets/img/hero/h1_hero1.jpg.webp");
+height: 100vh;
+background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
+} */
+
+/* h1::after{
+    content: "\f095";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
+}
+
+i{
+    font-size: 100px;
+
+} */
+ /* .container{
+background-color: bisque;
+border: 1px solid black;
+display:flex;
+flex-wrap: wrap; */
+/* gap: 5px; */
+/* flex-direction: row; */
+/* flex-direction: row-reverse; */
+
+/*
+justify-content ==> x 
+flex-direction : row
+flex-start
+flex-end
+spacebetween
+space-around
+right
+left
+centet
+
+justify-content ==> y
+flex-direction : column
+*/
+
+/**
+flex-direction:row;
+=====>
+justify-content:x
+align-content:y
+align-items:y
+******************************
+flex-direction:column;
+=====>
+justify-content:y
+align-content:x
+align-items:x
+
+*/
+/* flex-direction: column;
+justify-content: flex-end; */
+/* height: 50vh; */
+
+
+ /* }
+ .item1{ */
+    /* display: inline-block; */
+    
+ /* background-color:red;
+ }
+ .item2{
+    background-color: yellow;
+    width: 50px;
+ }
+ .item3{
+    background-color: blue;
+ }
+ .item4{
+    background-color: green;
+ } */
+
+
+ /* .main{
+ background-color: blueviolet;
+    justify-content: flex-end;
+ } */
+ /* .title
+ {
+    display: flex;
+    justify-content: flex-start;
+ }
+ .title p{
+    color: aliceblue;
+ }
+ .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ }
+ img{
+    width:30px;
+    height: 30px;
+ }
+ .text p{
+    width: 70%;
+    color: aliceblue;
+ }
+ .description{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ }
+ .description p{
+    width: 70%;
+    font-size: 5px;
+    color: rgb(206, 204, 201);
+    
+ } */
+ 
+
+ /*
+ flex==> child
+ order
+ align-self==> flex-start
+ flex-end
+ center
+ 
+ 
+ */
+h1{
+    font-family: "Rubik", serif;
+}
+ p::first-line{
+    color: red;
+ }
+ h1::first-letter{
+    /* color: rgb(44, 189, 33); */
+    /* font-size: 20px; */
+    font-family:Impact, 
+    /* font-weight: bolder; */
+ }
+ /**
+ after ==> 
+ before===>
+ 
+ */
+ h1::after{
+    content: "**";
+    color: blue;
+ }
+ /* h1::before{
+    content: "**";
+    color: blue;
+ } */
+ h1:hover{
+    color: green;
+ }
+ span i{
+    color: rgb(247, 142, 37);
+ }
+ span i:hover{
+    color: blue;
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+    transform: rotateY(180deg);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+i.tiktok{
+    color: brown;
+}
+h1::first-letter{
+   
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: red;
+        
+   
+      
+}
+
+p{
+ font-family: var(--main-font-family);
+    color:var(--basic-color);
+    border:var(--main-border);
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+/* visibility: hidden;
+ */
+ /* opacity: 0;
+ display: none; */
+}
+
+
+/*
+visibility
+display:none
+overflow:hidden
+opacity
+*/
