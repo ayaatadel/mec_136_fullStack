@@ -148,7 +148,7 @@ background: radial-gradient(circle, rgba(97,63,251,1) 23%, rgba(214,49,138,0.992
 
 
 
-/* 
+ 
 div{
     position: relative;
     width:200px;
@@ -178,36 +178,36 @@ div:hover img{
     top:0;
     opacity: 1;
 
-} */
+} 
 
 /* opactiy===  between 0 (not appear)to 1 (appear) */
 
-.test{
+/* .test{ */
     width: 100px;
     height: 100px;
     background-color: black;
     position: relative;
     overflow: hidden;
-}
-img{
+/* } */
+/* img{
     position: absolute;
     /* top: 100%;
     bottom: 0;
     left: 0;
     right: 0; */
-    bottom: 100%;
+    /* bottom: 100%;
     width:100%;
     height: 100%;
     opacity: 0;
     transition: all 2s ease-in-out;
 
-}
-.test:hover  img{
+} */ */
+/* .test:hover  img{ */
     /* top: 0;
      */
-     bottom: 0;
+     /* bottom: 0;
     opacity: 1;
-}
+} */
 
 
 
@@ -222,13 +222,13 @@ v-offset // up (كل ما القيمه بتقل)
 (blur)=>الوضوح
 spread  ==> الانتشار
 */
-div{
+/* div{
     box-shadow: 5px 5px 2px 3px red;
     background-color: black;
     border: 1px solid yellow;
     width: 100px;
     height: 100px;
-}
+} */
 /**
 text shadow ==> ○ text-shadow : 3px (h-offset) 3px (v-offset) 5px (blur) red(color)
 
@@ -240,8 +240,8 @@ v-offset // up (كل ما القيمه بتقل)
 spread  ==> الانتشار
 
 */
-p{
+/* p{
     color:white;
     text-align: center;
     text-shadow:5px 5px 2px yellow ;
-}
+} */

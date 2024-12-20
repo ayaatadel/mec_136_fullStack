@@ -93,12 +93,53 @@ var n1=3;
 
 
 // take vaues , message from user
-var num1=+prompt("enter first number")  // string==> number
-var num2=+prompt("enter first number")
-sum=num1+num2;
-console.log(sum);
+// var num1=+prompt("enter first number")  // string==> number
+// var num2=+prompt("enter first number")
+// sum=num1+num2;
+// console.log(sum);
+
+// var arr=[1,2,3,4]
+// for (const key in arr) {
+//     console.log(key);
+    
+// }
 
 
+/**
+ * in array
+ * for of ==> value of index
+ * for in ==> index
+ * 
+ * object
+ * 
+ * for of ==> value of key
+ * for in ==> key
+ */
 
+
+// var a=200;
+var assarr = {
+    "UserName": "Aly",
+    "Age": 21,
+    "Address": "Cairo"
+  };
+//   var associativeArray = {
+//       "UserName": "Aly",
+//       "Age": 21,
+//       "Address": "Cairo"
+//     };
+    function showdata(){
+      for (i=0; i<assarr.length-1; i++){
+      var key = assarr[i].split(':')[0]
+      var value = assarr[i].split(':')[1]
+      console.log(key);
+      console.log(value);
+      
+      
+      }
+      }
+      showdata()
+    // //   showdata(key, value);
+    //   console.log(showdata());
 
 
