@@ -9,13 +9,13 @@ document.writeln("<h1> welcome in java script day 1 </h1>")
 console.log("hello day1 js");
 // alert("hello")  ==> show message to user
 
-// confirm("Are you sure to delete")
+confirm("Are you sure to delete")
 // print message to take confirmation from user (true , fale) 
 
 
 // variable ==> place in memory i can store value in it
-// var name="ayaat";
-// console.log(name);
+var name="ayaat";
+console.log(name);
 // document.writeln(name)
 
 // var result=confirm("Are sure to delete");  
@@ -93,7 +93,7 @@ var n1=3;
 
 
 // take vaues , message from user
-// var num1=+prompt("enter first number")  // string==> number
+var num1=+prompt("enter first number")  // string==> number
 // var num2=+prompt("enter first number")
 // sum=num1+num2;
 // console.log(sum);
