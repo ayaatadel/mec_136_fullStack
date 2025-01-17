@@ -1,0 +1,36 @@
+1- Write a for function called countMultiples to count how many numbers between 1 and 20 are multiples of a given number 5.
+
+outPut:
+Output: 4
+(Explanation: Multiples of 5 between 1 and 20 are 5, 10, 15, 20.)
+
+2- Write a  function called printSquares to print the squares of numbers from 1 to 4 using a loop.
+outPut :
+1^2 = 1
+2^2 = 4
+3^2 = 9
+4^2 = 16
+
+3-Write a function called oddSummation to calculate the sum of  odd numbers from 1 to 12 using a loop.
+
+4-Write a function called evenSummation to calculate the sum of  even numbers from 1 to 12 using a loop.
+
+5- Write a function called printUserData that take name and age and address from user as parameters to function then  print them
+
+6-Write a function called printDigitSum find the sum of the digits of a number that take from user that is consist of three degits and less than 999 and more than or qeual 100 num using a loop.
+
+Example:
+Input: 456
+Output: 15
+
+
+
+
+
+
+
+
+
+
+
+
