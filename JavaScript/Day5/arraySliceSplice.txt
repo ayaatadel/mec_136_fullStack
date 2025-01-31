@@ -1,0 +1,79 @@
+In JavaScript, `splice` and `slice` are both array methods, but they serve different purposes and behave differently. Here's a breakdown of each, along with examples:
+
+---
+
+### **1. `slice`**
+- **Purpose**: Extracts a portion of an array and returns it as a new array.
+- **Does it modify the original array?**: No, it does not modify the original array.
+- **Syntax**: `array.slice(startIndex, endIndex)`
+  - `startIndex`: The index at which to begin extraction (inclusive).
+  - `endIndex`: The index at which to end extraction (exclusive). If omitted, it extracts to the end of the array.
+
+#### Example:
+```javascript
+const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+
+// Extract elements from index 1 to 3 (endIndex is exclusive)
+const slicedFruits = fruits.slice(1, 3);
+
+console.log(slicedFruits); // Output: ['banana', 'cherry']
+console.log(fruits); // Original array remains unchanged: ['apple', 'banana', 'cherry', 'date', 'elderberry']
+```
+
+---
+
+### **2. `splice`**
+- **Purpose**: Adds or removes elements from an array at a specific position.
+- **Does it modify the original array?**: Yes, it modifies the original array.
+- **Syntax**: `array.splice(startIndex, deleteCount, item1, item2, ...)`
+  - `startIndex`: The index at which to start changing the array.
+  - `deleteCount`: The number of elements to remove (if 0, no elements are removed).
+  - `item1, item2, ...`: Optional. Elements to add to the array at the `startIndex`.
+
+#### Example 1: Removing elements
+```javascript
+const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+
+// Remove 2 elements starting from index 1
+const removedFruits = fruits.splice(1, 2);
+
+console.log(removedFruits); // Output: ['banana', 'cherry']
+console.log(fruits); // Original array is modified: ['apple', 'date', 'elderberry']
+```
+
+#### Example 2: Adding elements
+```javascript
+const fruits = ['apple', 'banana', 'cherry'];
+
+// Add 'date' and 'elderberry' at index 2 (no elements removed)
+fruits.splice(2, 0, 'date', 'elderberry');
+
+console.log(fruits); // Output: ['apple', 'banana', 'date', 'elderberry', 'cherry']
+```
+
+#### Example 3: Replacing elements
+```javascript
+const fruits = ['apple', 'banana', 'cherry'];
+
+// Replace 1 element at index 1 with 'date' and 'elderberry'
+fruits.splice(1, 1, 'date', 'elderberry');
+
+console.log(fruits); // Output: ['apple', 'date', 'elderberry', 'cherry']
+```
+
+---
+
+### **Key Differences**
+| Feature          | `slice`                          | `splice`                        |
+|------------------|----------------------------------|---------------------------------|
+| **Purpose**      | Extracts a portion of an array   | Adds/removes elements from an array |
+| **Modifies Original Array** | No                          | Yes                             |
+| **Return Value** | New array with extracted elements | Array of removed elements (if any) |
+| **Syntax**       | `array.slice(start, end)`        | `array.splice(start, deleteCount, items...)` |
+
+---
+
+### **When to Use**
+- Use `slice` when you want to extract a portion of an array without modifying the original array.
+- Use `splice` when you want to add, remove, or replace elements in the original array.
+

@@ -1,0 +1,13 @@
+if bojct1=object2 ==> sam array
+
+
+let obj1={name:"mec",location:"cairo"}
+let obj2=obj1
+
+obj2.manager="test";
+
+console.log(obj1)
+console.log(obj2)
+
+
+//   solve it ==> array using code

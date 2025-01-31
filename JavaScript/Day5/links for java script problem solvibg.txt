@@ -1,0 +1,11 @@
+https://leetcode.com/problems/create-hello-world-function/description/?envType=study-plan-v2&envId=30-days-of-javascript
+
+
+https://www.hackerrank.com/contests/javascript-challenges/challenges
+
+https://www.hackerrank.com/contests
+
+
+
+========================== study ==> mdn , w3s
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference

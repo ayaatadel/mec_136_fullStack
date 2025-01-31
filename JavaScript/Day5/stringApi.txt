@@ -1,0 +1,23 @@
+// string api
+// includes  =>check if string exist or not => return  true , false
+
+// let str1="rect g4 from iti "
+// let test="test"
+
+// console.log(str1.includes("Iti"));  
+// console.log(str1.indexOf("i"));   => index of character
+// console.log(str1.startsWith("hello"));   // return true or false => caseSensitive
+// console.log(str1.endsWith("iti"));  // return true or false => caseSensitive
+// console.log(str1.charAt(11));   // index of charcter => charcter
+
+
+// let str2=str1.concat("welcome ")
+
+// let str2="welcome "+str1 +test
+// ''
+// ""
+// ``
+// let str2=`wlcome 
+// ${test}
+// ${str1}
+//  `
