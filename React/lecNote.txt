@@ -1,0 +1,19 @@
+Css =====> Frame work ===> Bootstrap
+/**
+Frame work ==> libraries ===> files ===> make code easy
+React ==> library ==> files ===> make code easy===> Build on Js
+/***
+reusable ===> no repeat
+===> handle code ==> functions 
+====> component 
+==> load
+===========================================  React> library'
+files ==> manager ===> npm ==> node package manager 
+node ===> install ==> npm 
+node --version
+npm -v 
+
+npm install vite --save-dev
+npm install -g vite
+npm create vite@latest
+npm run dev
