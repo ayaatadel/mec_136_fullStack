@@ -1,0 +1,23 @@
+
+import NavBar from './Component/NavBarComponent/NavBar'
+import Slider from './Component/SliderComponent/Slider'
+import {Content} from './Component/ContentComponent/Content'
+import Footer from './Component/FooterComponent/Footer'
+import './index.css'
+function App() {
+
+  return (
+    <>  
+      <h2>
+        Day1 From React
+      </h2>
+      <NavBar></NavBar>
+      <Content/>
+      <Slider/>
+      <Footer></Footer>
+      
+    </>
+  )
+}
+
+export default App

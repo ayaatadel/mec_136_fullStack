@@ -1,0 +1,16 @@
+h2{
+    color:blue;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 230, 230);
+    margin: 20px;
+}
+li{
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+}
