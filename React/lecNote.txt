@@ -17,3 +17,21 @@ npm install vite --save-dev
 npm install -g vite
 npm create vite@latest
 npm run dev
+
+
+
+steps 
+install node  ==> https://nodejs.org/en/  ==> make sure
+============================> npm -v 
+============================> node -v
+====================================================>
+new terminal ===> cmd 
+npm create vite@latest
+write project name (demo)
+React
+javascript
+cd demo
+npm install
+npm run dev=========> error
+npm install -g npm@latestnpm create vite@latest
+npm run dev

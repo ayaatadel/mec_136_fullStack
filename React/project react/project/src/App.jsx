@@ -1,4 +1,4 @@
-
+// import NavBar from './Component/NavBarComponent/NavBar'
 import NavBar from './Component/NavBarComponent/NavBar'
 import Slider from './Component/SliderComponent/Slider'
 import {Content} from './Component/ContentComponent/Content'

@@ -89,15 +89,20 @@ import React from 'react'
 // third way
 
 export  function ProductCart({productsData}) {
+    // console.log(productsData);
+    
       return (
 <>
 
-   <div className="card w-25 justify-content-around m-5" key={productsData.name}>
+ {productsData.map((product)=>{
+    // console.log(product);
+    return(
+  <div className="card w-25 justify-content-around m-5" key={product.name}>
       <div className=" d-flex justify-content-center mt-2">
-        <img src={productsData.img} alt="productImage" className="w-50" />
+        <img src={product.img} alt="productImage" className="w-50" />
       </div>
-      <h2>{productsData.name}</h2>
-      <span className="text-success">Price: {productsData.price}</span>
+      <h2>{product.name}</h2>
+      <span className="text-success">Price: {product.price}</span>
       {productsData.available ? (
         <div className="d-flex justify-content-center my-3">
           <button className="btn btn-success">Add to Cart</button>
@@ -108,6 +113,10 @@ export  function ProductCart({productsData}) {
         </div>
       )}
     </div>
+    )
+    
+ })
+ }
 
 
 </>
