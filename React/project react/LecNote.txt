@@ -1,0 +1,23 @@
+1-dealing with variables   ===> {}
+2- css ==> inline style ==>
+ style={{ camelCase:'value' }}
+ style={{ display:"flex",justifyContent:'space-around'  }}
+
+condition ==> && ==> if only
+
+ ==> ternary operator (?) ===> ()?true : false  ==> if else
+ ===============> variable ==> array ==> loop 
+ const products =[{},{}]  ===> map 
+
+
+ new file.js ==>  export   const products =[{},{}]
+ ===> jsx ==> import {products } from 'path of file'
+
+3- use bootstrap ==> install , link
+4- use fontawoem ==> install , link
+
+
+5- props  ==>properity==>  move from component to another component
+
+
+component ===> products ==> productCart  ==> 

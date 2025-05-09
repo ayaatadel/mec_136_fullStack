@@ -3,7 +3,9 @@ import NavBar from './Component/NavBarComponent/NavBar'
 import Slider from './Component/SliderComponent/Slider'
 import {Content} from './Component/ContentComponent/Content'
 import Footer from './Component/FooterComponent/Footer'
+import { Products } from './Component/Products/Products'
 import './index.css'
+import {ProductsData} from './Component/ProductsData/ProductsData'
 function App() {
 
   return (
@@ -11,10 +13,12 @@ function App() {
       <h2>
         Day1 From React
       </h2>
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar>
       <Content/>
       <Slider/>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      {/* <Products></Products> */}
+      <ProductsData/>
       
     </>
   )
