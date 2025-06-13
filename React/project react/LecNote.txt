@@ -16,8 +16,19 @@ condition ==> && ==> if only
 3- use bootstrap ==> install , link
 4- use fontawoem ==> install , link
 
-
+====> img ====> src alt  ==> <img src="" alt="">
 5- props  ==>properity==>  move from component to another component
-
+===========>
 
 component ===> products ==> productCart  ==> 
+
+======================>
+CRUDS ===> Create Read Update Delete
+========================================================================================
+event ====> handle    =====> 
+<button  onClick=ClickMe> click</button>
+==> select ==> js
+btn.addEventListener('click',()=>{
+    
+})
+use state ====> 

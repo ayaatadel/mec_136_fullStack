@@ -1,0 +1,7 @@
+Create Componenet ==> Cart 
+
+
+select all data in local storage 
+and display it 
+
+counter ===> div in home ==> count all products in cart
