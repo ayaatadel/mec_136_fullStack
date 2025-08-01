@@ -1,0 +1,11 @@
+react ==> class component || function component
+
+
+function component ===> 
+fileName(componentName.jsx)
+==> rfc ==> react function component  ===> Src(Folder)
+
+============================ React Bootstrap ==> https://react-bootstrap.netlify.app/
+
+==============> design use bootstrap ==> npm install bootstrap 
+======> react bootstrap ==> depend on bootstrap ==> npm install react-bootstrap bootstrap

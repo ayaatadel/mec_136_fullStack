@@ -61,8 +61,9 @@ export function Products() {
         ))} */}
 
         {products.map((product) => {
-//   console.log(product); // Log product to see if the data is accessible
+  console.log(product); // Log product to see if the data is accessible
   return (
+
     <div className="card w-25 justify-content-around m-5" key={product.name}>
       <div className=" d-flex justify-content-center mt-2">
         <img src={product.img} alt="productImage" className="w-50" />
