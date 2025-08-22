@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { use } from 'react'
 import './NavBar.css'
+import { useSelector } from 'react-redux';
 export default function NavBar() {
+  const counter = useSelector(state=>state.counter.value);
   return (
     <>
-   <ul>
-    <li>
+ 
+<nav>
+    <ul >
+      <li>
         Home
     </li>
     <li>
@@ -13,7 +17,11 @@ export default function NavBar() {
     <li>
         Contact
     </li>
+    <li>
+        Counter :{counter}
+    </li>
    </ul>
+</nav>
     </>
   )
 }

@@ -1,0 +1,18 @@
+state management ========> share data between unrelated component 
+redux ==> value (general) and use it out of its component==> golbale state management
+==> latest version of redux is redux toolkit
+==> redux is library in js 
+===============================> use 
+1- install @reduxjs/toolkit react-redux (hocks)
+redux is consist of : 
+store    :  (global state) => initial value
+action   : (know store that is new value (payload)comming) 
+reducer  : update store with new value 
+
+/** steps **
+1- install  @reduxjs/toolkit  ,react-redux ==> npm install @reduxjs/toolkit react-redux
+2- new folder (store) 
+3-  store => configureStore({reducers :{define states==> counter : counterReducer }})
+4-new folder (slices) ==> createSlice({name  , initialState , reducers=> state , action => update state with payload (state.value=action.payload)})
+5- export const{actions}=slice.actions
+6- export defaut slice.reducer

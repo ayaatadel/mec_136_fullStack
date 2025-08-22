@@ -10,11 +10,12 @@ import Counter from "./Component/CounterComponent/Counter";
 import { ProductsData } from "./Component/ProductsData/ProductsData"; // export
 import Revision from "./Component/RevisionComponent/Revision";// export default
 import Test from "./Component/TestComponent/test";
+import ReduxCounterComponent from "./Component/ReduxCounterComponent/ReduxCounterComponent";
 function App() {
   return (
     <>
 
-
+      <NavBar></NavBar>
     <Test></Test>
     {/* <Revision></Revision> */}
     {/* <Revision></Revision> */}
@@ -32,7 +33,8 @@ function App() {
       {/* <Products></Products> */}
       {/* <ProductsData /> */}
       {/* <Cart/> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <ReduxCounterComponent></ReduxCounterComponent>
     </>
   );
 }
