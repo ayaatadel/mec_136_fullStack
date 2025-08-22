@@ -37,3 +37,17 @@ npm install
 npm run dev=========> error
 npm install -g npm@latestnpm create vite@latest
 npm run dev
+
+
+
+
+
+
+
+
++=================
+https://app.netlify.com
+https://vercel.com/
+deploy :
+npm run build 
+push on git hub
